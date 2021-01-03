@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+<head></head>
+<body class="tc-body">
+<script>
+global.$tw = global.require("./boot/bootprefix.js").bootprefix();
+global.$tw.boot.argv = ['./editions/server'];
+global.$tw = require("./boot/boot.js").TiddlyWiki(global.$tw);
+
+</script>
+</body>
+</html>
